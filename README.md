@@ -12,4 +12,4 @@ Send a message to Telegram or Gotify Server when a client is connected or discon
   - `chmod +x wg-clients-guardian`
   - `cp .config-example .config`
   - `sudo crontab -e`
-  - `* * * * * cd /root/wireguard-client-connection-notification && ./wg-clients-guardian .config > /dev/null 2>&1`
+  - `* * * * * cd /root/wireguard-notifier && ./wg-clients-guardian .config > /dev/null 2>&1`
